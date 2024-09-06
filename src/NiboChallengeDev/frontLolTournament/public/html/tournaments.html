@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Tournaments</title>
+    <link rel="stylesheet" href="\frontLolTournament\public\css\tournament.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Tournament</h1>
+        <form id="tournamentForm">
+            <label for="tournamentName">Tournament Name:</label>
+            <input type="text" id="tournamentName" name="tournamentName" required>
+            <label for="startDate">Start Date:</label>
+            <input type="date" id="startDate" name="startDate" required>
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="tournamentList">
+            <h2>Tournament List</h2>
+            <ul id="tournamentItems"></ul>
+        </div>
+        
+        <a href="index.html">Back to Home</a>
+    </div>
+    <script src="\frontLolTournament\\public\js\script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Teams</title>
+    <link rel="stylesheet" href="\frontLolTournament\public\css\team.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register Team</h1>
+        <form id="teamForm">
+            <label for="teamName">Team Name:</label>
+            <input type="text" id="teamName" name="teamName" required>
+            <label for="teamRegion">Region:</label>
+            <input type="text" id="regionName" name="regionName" required>
+            <button type="submit">Register</button>
+        </form>
+
+        <div id="teamList">
+            <h2>Team List</h2>
+            <ul id="teamItems"></ul>
+        </div>
+        
+        <a href="index.html">Back to Home</a>
+    </div>
+    <script src="\frontLolTournament\\public\js\script.js"></script>
+</body>
+</html>

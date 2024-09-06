@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lolTournament", "lolTournament.csproj", "{F2536A39-EC53-4DB3-929F-E2CE229EE0B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LolTournament.Tests", "Tests\LolTournament.Tests.csproj", "{475E7A13-53C3-4955-A5B7-726075A858A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2536A39-EC53-4DB3-929F-E2CE229EE0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2536A39-EC53-4DB3-929F-E2CE229EE0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2536A39-EC53-4DB3-929F-E2CE229EE0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2536A39-EC53-4DB3-929F-E2CE229EE0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{475E7A13-53C3-4955-A5B7-726075A858A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475E7A13-53C3-4955-A5B7-726075A858A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475E7A13-53C3-4955-A5B7-726075A858A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475E7A13-53C3-4955-A5B7-726075A858A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D8C9E0D-DCD8-4016-BD70-538FAADD7900}
+	EndGlobalSection
+EndGlobal

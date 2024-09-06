@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Match</title>
+    <link rel="stylesheet" href="\frontLolTournament\public\css\match.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Match</h1>
+        <form id="matchForm">
+            <label for="teamAId">Team A (ID):</label>
+            <input type="number" id="teamAId" name="teamAId" required min="0">
+            <label for="teamBId">Team B (ID):</label>
+            <input type="number" id="teamBId" name="teamBId" required min="0">
+            <label for="tournamentId">Tournament (ID):</label>
+            <input type="number" id="tournamentId" name="tournamentId" required min="0">
+            <button type="submit">Create Match</button>
+        </form>
+        
+        <div id="matchList">
+            <h2>Match List</h2>
+            <ul id="matchItems"></ul>
+        </div>
+
+        <a href="index.html">Back to Home</a>
+    </div>
+
+    <script src="\frontLolTournament\\public\js\script.js"></script>
+</body>
+</html>
